@@ -2,11 +2,11 @@ import os
 from spotify_client import SpotifyClient
 from youtube_client import YoutubeClient
 
-#put your token below
+#Put your spotify token below, the spotify token expires every 60 minutes.
 token = ''
 
 def run():
-    fpath = os.path.join('D:\PythonProjects\spot\creds', "client_secret.json")
+    fpath = os.path.join('PROJECT_DIR', "client_secret.json") #Put your project directory here
     youtube_client = YoutubeClient(fpath)
     spotify_client = SpotifyClient(token)
     playlists = youtube_client.get_playlist()
