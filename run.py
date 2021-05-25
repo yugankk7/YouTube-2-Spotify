@@ -1,7 +1,10 @@
 import os
 from spotify_client import SpotifyClient
 from youtube_client import YoutubeClient
-token ='BQBqn20VU_YfInzJ2Ey1SQavfgRngy-K6jdEC-jfCjS2MUOm2bZp-JSYC-bn3xZ_Ya-2zymymgDXdNqFhZdxpwi9qF051Fq8qmoUcDrmjfw2DLU5kEKk6aTwh57o2NzfUt57leAcW5Ixb7stu0PC9SAnkuiWiOXT2UPUA-lzmzUxV6HTSkMfEv7qDdk1orpdCYtg_05cnW0R9YqZYZSYhqR0I2lS8YgEBpTBsG3xPqhlSmjcUe7GBdAotN7_JG87nwsea3IGB2lXogZGBuAT5Td03OVcC1T0xRvoC-hR'
+
+#put your token below
+token = ''
+
 def run():
     fpath = os.path.join('D:\PythonProjects\spot\creds', "client_secret.json")
     youtube_client = YoutubeClient(fpath)
