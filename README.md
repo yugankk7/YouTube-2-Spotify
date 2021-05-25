@@ -9,4 +9,4 @@ A basic python scrip which transfers songs from a YouTube playlist to the Spotif
 4. Install the requirements file
 5. Run the run.py
 
-P.S. Please configure all the directories properly if facing an error.
+P.S. Please configure the directories properly in run.py line 9 before running.
